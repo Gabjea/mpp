@@ -4,11 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    // "test": "echo \"Error: no test specified\" && exit 1",
-    // "start": "concurrently \"npm run watch-ts\" \"npm run start-server\"",
-    // "watch-ts": "tsc --watch",
-    // "start-server": "nodemon dist/server.js"
-    "start": "nodemon src/index.ts", //====> path should be like this
+    
+    "start": "nodemon src/index.ts", 
     "build": "rimraf dist && tsc",
     "ts.check": "tsc --project tsconfig.json",
     "add-build": "git add dist"
